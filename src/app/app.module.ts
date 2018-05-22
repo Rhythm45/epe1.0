@@ -5,7 +5,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-import {VideoPlayer} from '@ionic-native/video-player';
+
 import { AlimentacionPage } from '../pages/alimentacion/alimentacion';
 import { EjerciciosPage } from '../pages/ejercicios/ejercicios';
 import { DescansoPage } from '../pages/descanso/descanso';
@@ -42,7 +42,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    VideoPlayer,
+    
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
