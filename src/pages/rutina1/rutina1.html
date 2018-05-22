@@ -1,0 +1,17 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Rutina 1</ion-title>
+  </ion-navbar>
+  <br>
+  <ion-label><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vamos vamos vamos!</h1></ion-label>
+</ion-header>
+
+
+<ion-content>
+      <ion-slides autoplay="5000" loop="true" speed="3000">
+       <ion-slide *ngFor="let image of ImageArray">
+          <img src="{{image.image}}" height="593" width="890"/></ion-slide> 
+     </ion-slides>   
+</ion-content>
