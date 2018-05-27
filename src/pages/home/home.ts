@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { AlimentacionPage } from '../alimentacion/alimentacion';
 import { EjerciciosPage } from '../ejercicios/ejercicios';
 import { DescansoPage } from '../descanso/descanso';
+import { AguaPage } from '../agua/agua';
 import { ImcPage } from '../imc/imc';
 
 @Component({
@@ -30,6 +31,12 @@ export class HomePage {
   abrirDescanso(){
 
     this.navCtrl.push(DescansoPage);
+
+  }
+
+  abrirAgua(){
+
+    this.navCtrl.push(AguaPage);
 
   }
 

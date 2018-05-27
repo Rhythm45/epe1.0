@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 
 import { AlimentacionPage } from '../pages/alimentacion/alimentacion';
 import { EjerciciosPage } from '../pages/ejercicios/ejercicios';
+import { AguaPage } from '../pages/agua/agua';
 import { DescansoPage } from '../pages/descanso/descanso';
 import { ImcPage } from '../pages/imc/imc';
 
@@ -22,7 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AlimentacionPage,
     EjerciciosPage,
     DescansoPage,
-    ImcPage
+    ImcPage,
+    AguaPage
     
   ],
   imports: [
@@ -37,7 +39,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AlimentacionPage,
     EjerciciosPage,
     DescansoPage,
-    ImcPage
+    ImcPage,
+    AguaPage
   ],
   providers: [
     StatusBar,
