@@ -11,6 +11,7 @@ import { EjerciciosPage } from '../pages/ejercicios/ejercicios';
 import { AguaPage } from '../pages/agua/agua';
 import { DescansoPage } from '../pages/descanso/descanso';
 import { ImcPage } from '../pages/imc/imc';
+import { LeerPage } from '../pages/leer/leer';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,7 +25,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EjerciciosPage,
     DescansoPage,
     ImcPage,
-    AguaPage
+    AguaPage,
+    LeerPage
     
   ],
   imports: [
@@ -40,7 +42,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EjerciciosPage,
     DescansoPage,
     ImcPage,
-    AguaPage
+    AguaPage,
+    LeerPage
   ],
   providers: [
     StatusBar,

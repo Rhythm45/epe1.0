@@ -5,6 +5,7 @@ import { EjerciciosPage } from '../ejercicios/ejercicios';
 import { DescansoPage } from '../descanso/descanso';
 import { AguaPage } from '../agua/agua';
 import { ImcPage } from '../imc/imc';
+import { LeerPage } from '../leer/leer';
 
 @Component({
   selector: 'page-home',
@@ -43,6 +44,12 @@ export class HomePage {
   abrirImc(){
 
     this.navCtrl.push(ImcPage);
+
+  }
+
+  Leer(){
+
+    this.navCtrl.push(LeerPage);
 
   }
 }
